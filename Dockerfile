@@ -17,5 +17,9 @@ ADD /src/* /usr/src/arduino
 # Set the working directory.
 WORKDIR /usr/src/arduino
 
+# Install needed Arduino libraries using the console client
+RUN arduino-cli lib install Arduino_BHY2
+RUN arduino-cli lib install ArduinoBLE
+
 # Open a terminal, for interactive mode.
 CMD [ "sh" ]
