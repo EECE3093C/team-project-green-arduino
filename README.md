@@ -3,7 +3,10 @@
 ## Install
 - Clone this repository locally: `git clone https://github.com/EECE3093C/team-project-green-arduino.git`
 - Enter the working directory and build the Dockerfile: `docker build --pull --rm -f "Dockerfile" -t arduino:latest "."`
-- Initalize a Docker container in interactive mode: `docker run --rm -it  arduino:latest `
+- Initalize a Docker container in interactive mode: `docker run --privileged --rm -it  arduino:latest `
+  - Note: the container must be run under privileged mode in order for [OpenOCD](https://openocd.org/) to have permissions to write to the board.
+
+
 
 ## Hardware documentation
 
