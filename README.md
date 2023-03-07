@@ -1,4 +1,6 @@
-# Team Green - Arduino
+# Team Green - Arduino 
+
+[![Docker Image Build Status](https://github.com/EECE3093C/team-project-green-arduino/actions/workflows/docker-image.yml/badge.svg)](https://github.com/EECE3093C/team-project-green-arduino/actions/workflows/docker-image.yml)
 
 ## Install
 - Clone this repository locally: `git clone https://github.com/EECE3093C/team-project-green-arduino.git`
